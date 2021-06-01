@@ -10,6 +10,7 @@ export default function Home() {
       name: 'Cheese Pizza',
       slug: 'cheese-pizza',
       toppings: ['mozarella cheese'],
+      description: 'A delicious cheese pizza made with our finest tomato sauce.',
       image: 'https://images.unsplash.com/photo-1548369937-47519962c11a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
       price: 9.99
     },
@@ -18,6 +19,7 @@ export default function Home() {
       name: 'Meat Lovers',
       slug: 'meat-lovers',
       toppings: ['ham', 'bacon', 'pepperoni', 'sausage'],
+      description: 'You want meat? This pizza has the essentials! Ham, bacon, pepperoni, and sausage.',
       image: 'https://images.unsplash.com/photo-1601924576374-990e34464c05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
       price: 15.99
     },
@@ -26,6 +28,7 @@ export default function Home() {
       name: 'Supreme',
       slug: 'supreme',
       toppings: ['olives', 'peppers', 'ham', 'pepperoni'],
+      description: 'Our most delicious veggies and meats.',
       image: 'https://images.unsplash.com/photo-1458642849426-cfb724f15ef7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80',
       price: 12.99
     },
@@ -34,6 +37,7 @@ export default function Home() {
       name: 'Pepperoni',
       slug: 'pepperoni',
       toppings: ['pepperoni'],
+      description: 'The classic topping of cheese and pepperoni.',
       image: 'https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1055&q=80',
       price: 10.99
     },
