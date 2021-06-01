@@ -14,15 +14,18 @@ export default function Pizza({pizza, otherPizzas}) {
       <Head>
         <title>{pizza.name}</title>
       </Head>
+
       <div className={styles.pizzaWrapperLeft}>
         <img src={pizza.image} alt={pizza.name} className={styles.pizzaImage} />
       </div>
+
       <div className={styles.pizzaWrapperRight}>
         <div className={styles.pizzaInfo}>
           <p className={styles.pizzaTitle}>{pizza.description}</p>
           <p className={styles.pizzaPrice}>${pizza.price}</p>
           <p className={styles.pizzaToppings}>{pizza.toppings.map(topping => topping).join(', ')}</p>
         </div>
+
         <div className={styles.otherPizzasWrapper}>
           {otherPizzas.map(otherpizza => {
             return(
