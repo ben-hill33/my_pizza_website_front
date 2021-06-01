@@ -4,7 +4,7 @@ import About from '../components/About/About.js'
 export default function about() {
   return (
     <div>
-      About
+      <About />
     </div>
   )
 }

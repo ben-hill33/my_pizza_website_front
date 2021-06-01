@@ -9,6 +9,7 @@ export default function About() {
         <title>About</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+    <p className={styles.description}> This is where you describe things about stuff and things cause reasons. </p>
     </div>
   )
 }
